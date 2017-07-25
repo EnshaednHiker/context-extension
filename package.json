@@ -1,0 +1,11 @@
+{
+  "name": "context-extension",
+  "version": "0.0.1",
+  "description": "extension to provide wikipedia articles embedded in web content via DBpedia Spotlight",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "EnshaednHiker",
+  "license": "ISC"
+}
