@@ -45,13 +45,13 @@ module.exports = function (env){
             event: path.join(__dirname,"event","index.js")
         }, plugins: [
             new webpack.HotModuleReplacementPlugin(),
-            new dotenv({path:path.join(__dirname,".env")}),
+            new dotenv({path:path.join(__dirname,".env")})//,
+            //new html({template:path.join(__dirname,"index.html")})
         ]}),
         Object.assign({},baseConfig,{entry: {
             popup: path.join(__dirname,"popup","index.js")
         },        plugins: [
             new webpack.HotModuleReplacementPlugin(),
-            new html({template:path.join(__dirname,"index.html")}),
             new dotenv({path:path.join(__dirname,".env")}),
             new CopyWebpackPlugin([{from: "manifest.json"}])
         ]}),

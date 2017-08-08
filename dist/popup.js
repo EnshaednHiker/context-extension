@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "14dfedb306e296ab5357"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "f22f16dabca3ef6c2aad"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -713,53 +713,16 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(0)(__webpack_require__.s = 0);
+/******/ 	return hotCreateRequire(115)(__webpack_require__.s = 115);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/******/ ({
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_images_icon_16_active_png__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_images_icon_16_active_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_images_icon_16_active_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_images_icon_16_png__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_images_icon_16_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_images_icon_16_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_images_icon_48_png__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_images_icon_48_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__assets_images_icon_48_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_images_icon_128_png__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_images_icon_128_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__assets_images_icon_128_png__);
+/***/ 115:
+/***/ (function(module, exports) {
 
-
-
-
-
-console.log('popup.js');
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/icon_16_active.png";
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/icon_16.png";
-
-/***/ }),
-/* 3 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/icon_48.png";
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/icon_128.png";
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\Admin\\OneDrive\\Documents\\Thinkful\\projects\\context\\context-extension\\popup\\index.js'\n    at Error (native)");
 
 /***/ })
-/******/ ]);
+
+/******/ });
